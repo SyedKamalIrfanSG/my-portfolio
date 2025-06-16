@@ -1,0 +1,158 @@
+
+/* .photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.spinner{
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-top: 5px #39ff14;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    box-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14;
+}
+
+.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px #39ff14;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+
+
+
+.entire{
+   margin-top: 50px;
+    background-color: rgb(252, 250, 250);
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.spinner{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    /* border: 5px solid rgb(0, 255, 0,o.2);
+    border-top: 5px solid rgb(0, 255, 0);
+    border-radius: 50%;
+    animation: spin 1s linear infinite; */
+    /* box-shadow: 0 0 10px #80ff00,0 0 20px #80ff00; */
+}
+.ring{
+    width: 100%;
+    height: 100%;
+    border: 5px solid rgb(0, 255, 0,o.2);
+    border-top: 5px solid rgb(0, 255, 0);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.spinner img{
+    justify-content: center;
+    align-items: center;
+    width: 149px;
+    height: 149px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center 70%;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    overflow: hidden;
+   
+}
+
+
+
+
+.img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+h1{
+    text-transform: uppercase;
+  text-decoration: underline black 3.05px;
+ text-decoration-thickness: 3.15px;
+ 
+}
+h1{
+    color: blue;
+}
+ul{
+    font-style: italic;
+  
+}
+li{
+ color: rgb(255, 0, 0);
+}
+img{
+    animation-name: img;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    border-radius:5%;
+
+}
+@keyframes img {
+    from {
+        width: 0;
+        height: 0;
+    margin-top: 0px;  
+
+       
+    }
+    to{
+        width: 150px;
+        height: 150px;
+        margin-top: 15px;
+    }
+}
+a{
+    color: blue;
+
+}
+:hover.a{
+    color:red;
+}
+
+.obj{
+    font-family
+    :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
